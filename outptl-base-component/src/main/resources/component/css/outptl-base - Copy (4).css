@@ -1,0 +1,104 @@
+/**Baseline**/
+
+/**Table containers**/
+
+.outptl-component-wrapper .content-hdr{
+  height:40px;
+}
+
+.outptl-label-container{
+  width: 150px;
+  height:300px;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+.outptl-content-container{
+  display: inline-block;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.header-item-display{
+  background-color: white;
+}
+
+.wf .list-as-table .hdr .header-item{
+  padding:0px;
+}
+.outptl-label-column,
+.wf .list-as-table .hdr .header-item-display{
+  width:100%;
+}
+
+/*Border left for each date*/
+.wf .list-as-table .hdr .outptl-timeline-new-year,
+.wf .list-as-table .hdr .outptl-timeline-date-content{
+  border-left:1px solid #DDD;
+}
+/*remove the first column left border*/
+.wf .outptl-content-container .list-as-table .content-hdr,
+.wf .list-as-table .hdr dd,
+.wf .list-as-table .hdr .outptl-timeline-first-content-col,
+.wf .list-as-table .hdr .outptl-timeline-first-content-col .outptl-timeline-date-content,
+.wf .list-as-table .hdr .outptl-timeline-new-year .outptl-timeline-date-content{
+  border-left:0px;
+}
+
+.outptl-label-column-header-content{
+  padding-left:5px;
+  padding-top: 5px;
+  text-align: center;
+  width:100%;
+  font-weight:bold; 
+}
+.outptl-timeline-year-content{
+  padding-left:2px;
+  padding-top: 6px;
+  text-align: center;
+}
+.outptl-label-column-grey-background,
+.outptl-timeline-grey-background{
+  background-color: whitesmoke;
+  height:20px;
+}
+.outptl-timeline-date-content{
+  height:18px;
+  /*vertical align inner text**/
+  padding-top: 2px;
+  text-align: center;
+}
+
+.outptl-timeline-navButtons{
+  width: 18px;
+  height: 40px;
+  position: fixed;
+  z-index: 1;
+  border: 1px solid #d0d0d0;
+  background-color: #d0d0d0;
+  background: -moz-linear-gradient(#fdfdfd, #d0d0d0);
+  background: -webkit-linear-gradient(#fdfdfd, #d0d0d0);
+  background: -ms-linear-gradient(#fdfdfd, #d0d0d0);
+  background: linear-gradient(#fdfdfd, #d0d0d0);
+}
+
+.outptl-content-nav-wrapper{
+  width:0px;
+}
+/*******Timeline code forward back buttons******/
+
+.outptl-timeline-imgForwardButtons{
+  height:100%;
+  background: url(../images/forward-arrow.png) no-repeat center center;
+}
+
+.outptl-timeline-imgBackButtons{
+  height: 100%;
+  background: url(../images/back-arrow.png) no-repeat center center;
+}
+
+
+
+/**BaseLine**/
